@@ -71,6 +71,23 @@ main{
     to {right: 347px;}
 }
 
+@keyframes movingCoin{
+    0%{
+        background-image: url(../sprites/penge.png);
+        left: 424px;
+        bottom: 198px;
+    }
+    50%{
+        left: 424px;
+        bottom: 220px;
+    }
+    100%{
+        left: 424px;
+        bottom: 240px;
+    }
+
+}
+
 #supermario{
     /* background-image: url(../sprites/staa.png); */
     background-size: cover;
@@ -98,4 +115,16 @@ main{
     animation-iteration-count: infinite, infinite;
     animation-duration: 0.5s, 1s;
     animation-direction: alternate;
+}
+
+#coin{
+    /* background-image: url(../sprites/penge.png); */
+    background-size:contain;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    animation-name: movingCoin;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+    animation-delay: 1s;
 }
