@@ -79,11 +79,11 @@ main{
     }
     50%{
         left: 424px;
-        bottom: 220px;
+        bottom: 230px;
     }
     100%{
         left: 424px;
-        bottom: 240px;
+        bottom: 250px;
     }
 
 }
@@ -120,7 +120,7 @@ main{
 #coin{
     /* background-image: url(../sprites/penge.png); */
     background-size:contain;
-    height: 30px;
+    height: 19px;
     width: 30px;
     position: absolute;
     animation-name: movingCoin;
