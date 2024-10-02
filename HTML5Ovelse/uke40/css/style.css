@@ -8,6 +8,7 @@ h1{
     font-size: 48px;
     padding: 100px 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
