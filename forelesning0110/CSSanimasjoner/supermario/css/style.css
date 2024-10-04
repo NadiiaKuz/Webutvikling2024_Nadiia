@@ -73,7 +73,7 @@ main{
 
 @keyframes movingCoin{
     0%{
-        background-image: url(../sprites/penge.png);
+        background-image: url(../sprites/penge.jpg);
         left: 424px;
         bottom: 198px;
     }
@@ -118,9 +118,9 @@ main{
 }
 
 #coin{
-    /* background-image: url(../sprites/penge.png); */
+    /* background-image: url(../sprites/penge.jpg); */
     background-size:contain;
-    height: 19px;
+    height: 38px;
     width: 30px;
     position: absolute;
     animation-name: movingCoin;
