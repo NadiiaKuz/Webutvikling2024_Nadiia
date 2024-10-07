@@ -1,3 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
 h1{
     background-image: url(../img/background.jpg);
     background-size: cover;
@@ -34,6 +43,14 @@ main{
     max-width: 70%;
     min-width: 400px;
     padding: 20px;
+    flex-basis: auto;
+}
+
+.flex-space-b{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 article{
@@ -43,8 +60,12 @@ article{
     padding: 20px;
 }
 
+aside{
+    
+}
+
 footer{
-    background-color: darkgray;
+    background-color: rgb(62, 62, 62);
     color: white;
     width: 100%;
 }
