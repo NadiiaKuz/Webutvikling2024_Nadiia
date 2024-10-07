@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto auto auto auto;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+nav{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.navigasjonsmenyen{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.navigasjonsmenyen li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigasjonsmenyen li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    padding: 1rem;
+}
+
+main{
+    
+    max-width: 70%;
+    min-width: 400px;
+    justify-content:space-between;
+}
+
+main h2{
+    width: 100%;
+}
+
+main section{
+    display: flex;
+    flex-wrap: wrap;
+}
+main article{
+    
+    box-shadow: 0 4px 8px;
+    min-width: 200px;
+    max-width: 300px;
+    padding: 10px;
+}
+
+aside{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+
+}
+
+#synlig-innhold{
+    background-color: rgb(65, 65, 65);
+
+}
+
+#synlig-innhold a{
+    color: white;
+}
+
+footer{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding: 1rem;
+}
+
+footer a{
+    color: white;
+}
+/* h1{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 48px;
+    padding: 100px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigasjonsmenyen{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0;  
+}
+
+.navigasjonsmenyen li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigasjonsmenyen li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    max-width: 70%;
+    min-width: 400px;
+    padding: 20px;
+    flex-basis: auto;
+}
+
+.flex-space-b{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+article{
+    box-shadow: 0 4px 8px;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 20px;
+}
+
+aside{
+    
+}
+
+footer{
+    background-color: rgb(62, 62, 62);
+    color: white;
+    width: 100%;
+}
+
+footer a{
+    color: white;
+}
+    */
