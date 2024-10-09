@@ -122,10 +122,48 @@ img{
 }
 
 .product-card {
-    max-width: 250px;
-    min-width: 200px;
+    max-width: 200px;
+    min-width: 100px;
     width: 100%;
     box-shadow: 13px 10px 20px 0px #efefef;
     border-radius: 4px;
     padding: 1rem;
+}
+
+/*desktop*/
+@media only screen and (min-width:800px){
+    .fa-burger{
+        display: none;
+    }
+    #menu{
+        display: flex !important;/*! vazno chtob menyu vernulos kohda ekran bolshe*/
+    }
+}
+
+/*mobil*/
+@media only screen and (max-width:800px){
+    #menu{
+        display: none;
+    }
+    #grid-container{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+    
+    header, main, aside, footer{
+        grid-column: 1/2;
+    }
+    header{
+        grid-row: 1/2;
+    }
+    main{
+        grid-row: 2/3;
+    }
+    aside{
+        display: none;
+    }
+    footer{
+        grid-row: 3/4;
+    }
+
 }
