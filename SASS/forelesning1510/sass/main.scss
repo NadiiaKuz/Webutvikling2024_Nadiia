@@ -1,0 +1,8 @@
+@use 'layout.scss';
+@use 'loginn.scss'; /*podkluchit partial fil. nazivat s '_' no pisat tut bez '_'*/
+@import 'colors.scss';
+
+body{
+    background-color: $blue;
+    height: 100vh;
+}

@@ -1,0 +1,30 @@
+.flex-container-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/*sozdali peremennuyu*/
+form {
+  background-color: #fff;
+  padding: 3rem;
+  color: rgb(35, 35, 35);
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px; /*okruglenie krajov tablici*/
+  gap: 0.5rem;
+}
+form input {
+  padding: 1rem;
+  border: 1px solid rgb(35, 35, 35);
+}
+
+/*podkluchit partial fil. nazivat s '_' no pisat tut bez '_'*/
+/*sozdali peremennuyu*/
+body {
+  background-color: rgb(53, 101, 167);
+  height: 100vh;
+}/*# sourceMappingURL=main.css.map */
