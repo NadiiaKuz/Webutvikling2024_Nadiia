@@ -1,8 +1,16 @@
 @use 'layout.scss';
 @use 'loginn.scss'; /*podkluchit partial fil. nazivat s '_' no pisat tut bez '_'*/
-@import 'colors.scss';
+@use 'colors' as *; /* zvezdochka visivaet vce*/
+@use 'fonts' as *;
+
+*{
+    box-sizing: border-box;
+}
 
 body{
-    background-color: $blue;
+    background-color: $blue; /* esli mi visivaem variabel to nado vizivat fayl, i cheres . utochnyat esli bes zvezdochi*/
     height: 100vh;
+    font-family: $mainFont;
+    background-image: url('https://picsum.photos/1200/1200'); /*picsum.photos gemererer bilder*/
+    background-size: cover;
 }

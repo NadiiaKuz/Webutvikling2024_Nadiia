@@ -1,0 +1,14 @@
+@mixin box($width, $height, $pad, $bradius){   /*kak funkcia v python chto prinimaet*/
+    width: 100%;  /*difoltnoe znachenie*/
+    max-width: $width;
+    height: $height;
+    padding: $pad;
+    border-radius: $bradius;  /*okruglenie krajov tablici*/
+}
+
+@mixin flexbox($direction, $wrap, $gap){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    gap: $gap;
+}
